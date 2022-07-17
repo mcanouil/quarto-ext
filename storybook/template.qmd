@@ -9,9 +9,9 @@ format:
   storybook-revealjs: default
 ---
 
-# Chapter 1 {background-image="_extensions/background.jpg"}
+# Chapter 1 {background-image="_extensions/storybook/background.jpg"}
 
-## Lorem Ipsum {background-image="_extensions/background.jpg"}
+## Lorem Ipsum {background-image="_extensions/storybook/background.jpg"}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 Ut condimentum velit id purus euismod placerat. 

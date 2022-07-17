@@ -12,7 +12,7 @@ format:
 
 ```{r, include = FALSE}
 showtext::showtext_auto()
-source(normalizePath("_extensions/setup-ggplot2-umr1283.R"))
+source(normalizePath("_extensions/umr1283/setup-ggplot2-umr1283.R"))
 ```
 
 ## Introduction
@@ -45,4 +45,4 @@ ggplot(mtcars, aes(wt, mpg)) + geom_point()
 
 With only text
 
-{{< include _extensions/about.qmd >}}
+{{< include _extensions/umr1283/about.qmd >}}
