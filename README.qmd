@@ -1,0 +1,20 @@
+---
+title: "Quarto Extensions"
+format: gfm
+execute:
+  echo: false
+  warning: false
+  error: false
+  output: asis
+---
+
+This is a repository for `Quarto` extensions.
+
+These [Quarto](quarto.org) extensions can be installed using the following commands:
+
+```{r}
+#| output: asis
+cat(sprintf("- `%s`", 
+  sub(".*= https://github.com/", "quarto install extension ", grep("url", readLines(".gitmodules"), value = TRUE))
+), sep = "\n")
+```

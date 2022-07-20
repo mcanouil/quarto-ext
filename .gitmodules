@@ -1,0 +1,9 @@
+[submodule "quarto-revealjs-storybook"]
+	path = quarto-revealjs-storybook
+	url = https://github.com/mcanouil/quarto-revealjs-storybook
+[submodule "quarto-revealjs-coeos"]
+	path = quarto-revealjs-coeos
+	url = https://github.com/mcanouil/quarto-revealjs-coeos
+[submodule "quarto-revealjs-umr1283"]
+	path = quarto-revealjs-umr1283
+	url = https://github.com/umr1283/quarto-revealjs-umr1283
